@@ -1,0 +1,76 @@
+body {
+  display: inline;
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  padding: 30px;
+  background-color: #176b87;
+}
+.border {
+  text-align: center;
+  background-color: #dafffb;
+}
+.h2 {
+  background-color: #001c30;
+}
+.form-group .icon {
+  position: absolute;
+  font-size: 2em;
+  margin: 8px auto;
+  margin-left: -0.9cm;
+}
+
+.text-center {
+  text-align: center;
+}
+.button {
+  color: #64ccc5;
+  background-color: #176b87;
+  font-style: oblique;
+  border-radius: 30px;
+  height: 35px;
+  width: 80px;
+  cursor: pointer;
+}
+.search-container {
+  max-width: 350px;
+  margin: 50px auto;
+  padding: 50px;
+  margin: 100px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #64ccc5;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 1.8);
+  height: 300px;
+  border-radius: 2cm;
+}
+
+.search-container h2 {
+  text-align: center;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label,
+.form-group select {
+  display: block;
+  width: 100%;
+}
+.form-group select {
+  padding: 10px;
+  font-size: 16px;
+}
+.results-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.candidate {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+.candidate h3 {
+  margin: 0;
+}
+.candidate p {
+  margin: 10px 0;
+}

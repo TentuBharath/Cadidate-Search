@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Candidate Search</title>
+    <link rel="stylesheet" href="CandidateSearch.css" />
+  </head>
+  <body>
+    <div class="search-container">
+      <h2>Search Candidates</h2>
+      <div class="form-group">
+        <label for="location">Location:</label>
+        <span class="icon"><ion-icon name="location-sharp"></ion-icon></span>
+        <select class="border" id="location" name="location">
+          <option value="">Select Location</option>
+          <option value="New York">New York</option>
+          <option value="London">London</option>
+          <option value="Paris">Paris</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="jobRole">Job Role:</label>
+        <span class="icon"><ion-icon name="analytics-sharp"></ion-icon></span>
+        <select class="border" id="jobRole" name="jobRole">
+          <option value="">Select Job Role</option>
+          <option value="Software Engineer">Software Engineer</option>
+          <option value="Product Manager">Product Manager</option>
+          <option value="Data Analyst">Data Analyst</option>
+        </select>
+      </div>
+      <div class="text-center">
+        <button id="searchBtn" class="button">Search</button>
+      </div>
+    </div>
+
+    <div class="results-container" id="resultsContainer"></div>
+    <script src="CandidateSearch.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
